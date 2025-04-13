@@ -1,0 +1,68 @@
+body, html {
+    background-color: rgb(15, 15, 15);
+    color: lightgrey;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fancy {
+    background: rgb(255,0,211);
+    background: linear-gradient(120deg, rgba(255,0,211,1) 0%, rgba(0,121,255,1) 100%);
+    background-size: 200% 100%;
+    color: transparent;
+    background-clip: text;
+    background-position: left;
+    animation: pan-gradient 8s linear infinite;
+    box-shadow: 0 0 8px rgba(0, 121, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 8px;
+}
+
+hr {
+    color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+    border-color: rgb(25, 25, 25);
+    color: rgb(25, 25, 25);
+    width: 80vw;
+    padding-top: 0;
+    margin-top: 0; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games h2, .hacks h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.games, .hacks {
+    text-align: center;
+}
+
+.content a {
+    color: lightgrey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgb(25, 25, 25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 5px;
+}
+
+.content a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 121, 255, 0.5);
+}

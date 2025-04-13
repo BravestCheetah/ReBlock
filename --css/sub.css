@@ -1,0 +1,57 @@
+body, html {
+    background-color: rgb(15, 15, 15);
+    color: lightgrey;
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+    border-color: rgb(25, 25, 25);
+    color: rgb(25, 25, 25);
+    width: 80vw;
+    padding-top: 0;
+    margin-top: 0; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+    position: relative;
+    text-align: center;
+}
+
+a {
+    color: lightgrey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgb(25, 25, 25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 5px;
+}
+
+a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 121, 255, 0.5);
+}
+
