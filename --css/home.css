@@ -66,3 +66,8 @@ hr {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(0, 121, 255, 0.5);
 }
+
+.logo a {
+    text-decoration: none;
+    color: lightgrey;
+}

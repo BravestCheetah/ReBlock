@@ -33,7 +33,7 @@ li {
     text-align: center;
 }
 
-a {
+.content a {
     color: lightgrey;
     border-radius: 10px;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ a {
     margin: 5px;
 }
 
-a:hover {
+.content a:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(0, 121, 255, 0.5);
 }
