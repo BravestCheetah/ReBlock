@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Game Loader</title>
+  <title>Google</title>
   <style>
     body, html {
       margin: 0;
@@ -45,7 +45,6 @@
     const errorDiv = document.getElementById("error");
 
     if (gameKey && gameLinks[gameKey]) {
-      document.title = `Playing: ${gameKey}`;
       gameFrame.src = gameLinks[gameKey];
       gameFrame.style.display = "block";
     } else {
